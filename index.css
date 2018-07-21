@@ -1,0 +1,148 @@
+* {
+	box-sizing: border-box;
+	font-family: 'Roboto', arial, sans-serif;
+}
+
+html * {
+    margin: 0;
+}
+
+body {
+    margin: 0 auto;
+    max-width: 1000px;
+    background: linear-gradient(to bottom right, darkgrey, grey);
+}
+
+nav {
+    background-color: lightgrey;
+    position: relative;
+    z-index: 1;
+    height: 80px;
+    border: 1px black solid;
+}
+
+header {
+    position: relative;
+    top: 80px;
+    left: 25px;
+
+}
+
+.myself, .projects, .activities{
+    border: 1px solid black;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.projects {
+    position: relative;
+    padding: 50px;
+}
+
+.projects h3 {
+    padding-bottom: 40px;
+}
+
+
+.myself, .projects, .activities{
+    background-color: white;
+}
+
+.cube {
+    width: 200px;
+}
+
+h1 {
+    position: relative;
+    left: 215px;
+    top: -120px;
+}
+
+.myself{
+    position: relative;
+    top: -50px;
+    margin-bottom: -71px;
+    height: 452px;
+}
+
+.headline{
+    position: relative;
+    top: -115px;
+    left: 247px;
+}
+
+.bio{
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.description {
+    width: 800px;
+    margin: 0 auto;
+    position: relative;
+    left: -35px;
+    top: 35px;
+}
+
+.storyTime, .calTrak {
+    width: 600px;
+    padding-bottom: 30px;
+}
+
+.storyTitle, .calTitle {
+    padding-bottom: 10px;
+}
+
+.storyImg {
+    position: relative;
+    top: -45px;
+    left: 20px;
+}
+
+.calImg{
+    width: 300px;
+}
+
+.storyDesc {
+    width: 300px;
+    float: left;
+}
+
+.calDesc {
+    width: 300px;
+    float: right;
+    position: relative;
+    top: 65px;
+    left: 15px;
+}
+
+.storyTech  {
+    position: relative;
+    top: -45px;
+}
+
+nav a {
+    float: left;
+    padding: 10px;
+}
+
+nav img {
+    width: 50px;
+}
+
+.activities{
+    padding: 30px;
+}
+
+.activities {
+    height: 145px;
+}
+.activities a {
+    float: left;
+    padding: 10px;
+}
+
+.activities img {
+    width: 50px;
+}

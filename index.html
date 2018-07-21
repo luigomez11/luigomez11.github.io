@@ -5,32 +5,54 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>My Portfolio</title>
+    <link rel="stylesheet" type="text/css" href="index.css">
 </head>
 <body>
-    <nav role="navigation">Nav</nav>
-    <main>
+    <nav role="navigation">
+        <a href="https://github.com/luigomez11"><img src="git.png" alt="GitHub"></a>
+        <a href="https://www.linkedin.com/in/gomezluisangel/"><img src="link.png" alt="Linkdin"></a>
+    </nav>
+    <main id="main" role="main">
+            <div class="myself">
         <header role="banner">
-            <h1>Welcome!</h1>
-        </header>
-        <section class="headline">
-            <p>
-                Hello! My name is Luis. I am a fullstack developer in the Greater New York area.
+            <img class="cube" src="cube.jpg" alt="portLogo">
+            <h1>Full-Stack Web Developer</h1>
+            <p class="headline">
+                -Luis Gomez > Greater New York area.
             </p>
-        </section>
+        </header>
         <section class="bio">
-            <h3>Bio</h3>
-            <p>
+            <p class="description">
                 I am a web developer and recent graduate of the FullStack Development program at Thinkful. I believe coding is a skill that everyone should know and it has grown into one of my favorite things to learn about.  Before Thinkful, I graduated with a degree in chemical engineering, so problem solving has always been a strength for me and that lines up perfectly with my coding.  In my spare time I play and watch a lot of sports.  One of my favorite hobbies is that I co-host a sports podcast, which can be found at wttspod.com.  Along with sports, I also play videogames, listen to music and (attempt) to play instruments, and I watch a lot of movies.
             </p>
         </section>
+        </div>
         <section class="projects">
             <h3>Notable Projects</h3>
-            <h5>Project #1</h5>
-            <p>Project description.</p>
-            <p>IMAGE</p>
-            <h5>Project #2</h5>
-            <p>Project description</p>
-            <p>IMAGE</p>
+            <div class="storyTime">
+                <h4 class="storyTitle">StoryTime!</h4>
+                <p class="storyDesc">StoryTime is a fullstack online short stories app.  The main purpose of the app is to give users a story to read while they have time to spare.  In other words, if you find yourself needing to kill some time (or procrastinating), this is a great app for you.  All stories are user submitted and completely anonymous! If you’d like to get something off your chest but remain a secret, then submit your own story and be done with it.</p>
+                <img class="storyImg" src="read.png" alt="StoryTime!">
+                <p class="storyTech">Tech: React, node, javascript, express, mongo.
+                    <a href="https://stormy-reef-33529.herokuapp.com/">Live</a>
+                    <a href="https://github.com/luigomez11/shortStoriesClient">Repo</a>
+                </p>
+            </div>
+            <div class="calTrak">
+                <h4 class="calTitle">CalTrak</h4>
+                <p class="calDesc">CalTrak is a fullstack app used to log and track the calories you eat on a day to day basis.  At the start you figure out your daily caloric intake based on your goals as a user.  From there you can begin to keep track of what you are eating.  This app can be used by anyone trying to lose or gain weight.</p>
+                <img class="calImg" src="health.png" alt="CalTrak">
+                <p class="calTech">Tech: Node, Javascript, Express, Mongo.
+                    <a href="https://boiling-hamlet-94997.herokuapp.com/">Live</a>
+                    <a href="https://github.com/luigomez11/fullstackCapstone">Repo</a>
+                </p>
+            </div>
+        </section>
+        <section class="activities">
+            <h3>Activities</h3>
+            <a href="www.wttspod.com"><img src="wtts.png" alt="Podcast"></a>
+            <a href="https://www.instagram.com/corozo_goldsox/?hl=en"><img src="ig.jpg" alt="Instagram"></a>
+            <a href="https://www.twitch.tv/hovamojo11"><img src="twitch.png" alt=""></a>
         </section>
     </main>
 </body>
