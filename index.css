@@ -7,6 +7,10 @@ html * {
     margin: 0;
 }
 
+main {
+    margin: 0;
+}
+
 body {
     margin: 0 auto;
     max-width: 1000px;
@@ -71,11 +75,11 @@ h1 {
     left: 247px;
 }
 
-.bio{
+/* .bio{
     position: relative;
     margin-left: auto;
     margin-right: auto;
-}
+} */
 
 .description {
     width: 800px;
@@ -85,12 +89,16 @@ h1 {
     top: 35px;
 }
 
-.storyTime, .calTrak {
+.storyTime, .calTrak, .fineWine {
     width: 600px;
     padding-bottom: 30px;
 }
 
-.storyTitle, .calTitle {
+.fineWine{
+    margin-top: 60px;
+}
+
+.storyTitle, .calTitle, .wineTitle {
     padding-bottom: 10px;
 }
 
@@ -104,6 +112,9 @@ h1 {
     width: 300px;
 }
 
+.wineImg{
+    width: 300px;
+}
 .storyDesc {
     width: 300px;
     float: left;
@@ -117,9 +128,21 @@ h1 {
     left: 15px;
 }
 
+.wineDesc {
+    width: 300px;
+    float: left;
+    position: relative;
+    top: 100px;
+}
+
 .storyTech  {
     position: relative;
     top: -45px;
+}
+
+.wineTech {
+    position: relative;
+    top: 20px;
 }
 
 nav a {
@@ -145,4 +168,14 @@ nav img {
 
 .activities img {
     width: 50px;
+}
+
+.storyTime hr {
+    margin-bottom: 44px;
+}
+
+@media only screen and (max-width: 600px) {
+    nav {
+        background-color: blue;
+    }
 }

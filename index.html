@@ -2,57 +2,68 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>My Portfolio</title>
     <link rel="stylesheet" type="text/css" href="index.css">
+    <link rel="stylesheet" type="text/css" href="floatGrid.css">
 </head>
 <body>
     <nav role="navigation">
-        <a href="https://github.com/luigomez11"><img src="git.png" alt="GitHub"></a>
-        <a href="https://www.linkedin.com/in/gomezluisangel/"><img src="link.png" alt="Linkdin"></a>
+        <a href="https://github.com/luigomez11" target="_blank" ><img src="git.png" alt="GitHub"></a>
+        <a href="https://www.linkedin.com/in/gomezluisangel/" target="_blank" ><img src="link.png" alt="Linkdin"></a>
+        <a href="mailto:luigomez11@gmail.com"><img src="gmail.png" alt="gmail"></a>
     </nav>
     <main id="main" role="main">
-            <div class="myself">
-        <header role="banner">
-            <img class="cube" src="cube.jpg" alt="portLogo">
-            <h1>Full-Stack Web Developer</h1>
-            <p class="headline">
-                -Luis Gomez > Greater New York area.
-            </p>
-        </header>
-        <section class="bio">
-            <p class="description">
-                I am a web developer and recent graduate of the FullStack Development program at Thinkful. I believe coding is a skill that everyone should know and it has grown into one of my favorite things to learn about.  Before Thinkful, I graduated with a degree in chemical engineering, so problem solving has always been a strength for me and that lines up perfectly with my coding.  In my spare time I play and watch a lot of sports.  One of my favorite hobbies is that I co-host a sports podcast, which can be found at wttspod.com.  Along with sports, I also play videogames, listen to music and (attempt) to play instruments, and I watch a lot of movies.
-            </p>
-        </section>
+        <div class="myself">
+            <header class="" role="banner">
+                <img class="cube" src="cube.jpg" alt="portLogo">
+                <h1>Full-Stack Web Developer</h1>
+                <p class="headline">
+                -LuisAngel Gomez > Greater New York area.
+                </p>
+            </header>
+                <p class="description">
+                    I am a web developer and recent graduate of the FullStack Development program at Thinkful. I believe coding is a skill that everyone should know and it has grown into one of my favorite things to learn about.  Before Thinkful, I graduated with a degree in chemical engineering, so problem solving has always been a strength for me and that lines up perfectly with my coding.  In my spare time I play and watch a lot of sports.  One of my favorite hobbies is that I co-host a sports podcast, which can be found at wttspod.com.  Along with sports, I also play videogames, listen to music and (attempt) to play instruments, and I watch a lot of movies.
+                </p>
         </div>
         <section class="projects">
             <h3>Notable Projects</h3>
             <div class="storyTime">
                 <h4 class="storyTitle">StoryTime!</h4>
+                <hr class="wide">
                 <p class="storyDesc">StoryTime is a fullstack online short stories app.  The main purpose of the app is to give users a story to read while they have time to spare.  In other words, if you find yourself needing to kill some time (or procrastinating), this is a great app for you.  All stories are user submitted and completely anonymous! If you’d like to get something off your chest but remain a secret, then submit your own story and be done with it.</p>
-                <img class="storyImg" src="read.png" alt="StoryTime!">
-                <p class="storyTech">Tech: React, node, javascript, express, mongo.
-                    <a href="https://stormy-reef-33529.herokuapp.com/">Live</a>
-                    <a href="https://github.com/luigomez11/shortStoriesClient">Repo</a>
+                <a href="https://stormy-reef-33529.herokuapp.com/" target="_blank" ><img class="storyImg" src="read.png" alt="StoryTime!"></a>
+                <p class="storyTech">Tech: React, node, javascript, express, mongo. 
+                    <a href="https://stormy-reef-33529.herokuapp.com/" target="_blank" >Live</a>
+                    <a href="https://github.com/luigomez11/shortStoriesClient" target="_blank" >Repo</a>
                 </p>
             </div>
             <div class="calTrak">
                 <h4 class="calTitle">CalTrak</h4>
+                <hr class="wide">
                 <p class="calDesc">CalTrak is a fullstack app used to log and track the calories you eat on a day to day basis.  At the start you figure out your daily caloric intake based on your goals as a user.  From there you can begin to keep track of what you are eating.  This app can be used by anyone trying to lose or gain weight.</p>
-                <img class="calImg" src="health.png" alt="CalTrak">
-                <p class="calTech">Tech: Node, Javascript, Express, Mongo.
-                    <a href="https://boiling-hamlet-94997.herokuapp.com/">Live</a>
-                    <a href="https://github.com/luigomez11/fullstackCapstone">Repo</a>
+                <a href="https://boiling-hamlet-94997.herokuapp.com/" target="_blank" ><img class="calImg" src="health.png" alt="CalTrak"></a>
+                <p class="calTech">Tech: Node, Javascript, Express, Mongo. 
+                    <a href="https://boiling-hamlet-94997.herokuapp.com/" target="_blank" >Live</a>
+                    <a href="https://github.com/luigomez11/fullstackCapstone" target="_blank" >Repo</a>
+                </p>
+            </div>
+            <div class="fineWine">
+                <h4 class="wineTitle">FineWine</h4>
+                <hr class="wide">
+                <p class="wineDesc">A website dedicated to all wine lovers. Get price and region information on the wines you like. Powered by snooth.</p>
+                <a href="https://luigomez11.github.io/FineWine/" target="_blank"><img class="wineImg" src="wine.png" alt="wine"></a>
+                <p class="wineTech">Tech: HTML, CSS, JavaScript, jQuery.  
+                    <a href="https://luigomez11.github.io/FineWine/" target="_blank">Live</a>
+                    <a href="https://github.com/luigomez11/FineWine" target="_blank">Repo</a>
                 </p>
             </div>
         </section>
         <section class="activities">
             <h3>Activities</h3>
-            <a href="www.wttspod.com"><img src="wtts.png" alt="Podcast"></a>
-            <a href="https://www.instagram.com/corozo_goldsox/?hl=en"><img src="ig.jpg" alt="Instagram"></a>
-            <a href="https://www.twitch.tv/hovamojo11"><img src="twitch.png" alt=""></a>
+            <a href="www.wttspod.com" target="_blank" ><img src="wtts.png" alt="Podcast"></a>
+            <a href="https://www.instagram.com/corozo_goldsox/?hl=en" target="_blank" ><img src="ig.jpg" alt="Instagram"></a>
+            <a href="https://www.twitch.tv/hovamojo11" target="_blank" ><img src="twitch.png" alt=""></a>
         </section>
     </main>
 </body>
