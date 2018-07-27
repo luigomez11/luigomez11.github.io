@@ -1,0 +1,150 @@
+* {
+	box-sizing: border-box;
+	font-family: 'Roboto', arial, sans-serif;
+}
+
+nav {
+    border: 1px solid black;
+    padding: 10px;
+    background-color:   darkgrey; 
+}
+
+nav img {
+    width: 50px;
+}
+
+.activities {
+    border: 1px solid black;
+    padding: 10px;
+    padding-left: 20px;
+}
+
+.letter {
+    color: red;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.activities img {
+    width: 60px;
+}
+
+header {
+    margin-bottom: 100px;
+}
+
+.myself {
+    border: 1px solid black;
+}
+.myself h1 {
+    position: relative;
+    top: 60px;
+}
+
+.myself img, .myself h1 {
+    margin-left: 10px;
+}
+
+.headline {
+    position: relative;
+    top: 45px;
+}
+
+.myself img {
+    width: 180px;
+    float: left;
+}
+
+.description {
+    max-width: 800px;
+    display: block;
+    padding: 15px;
+    margin-bottom: 20px;
+}
+
+.projects {
+    border: 1px solid black;
+    padding-left: 20px;
+}
+
+.storyTime, .calTrak, .fineWine {
+    max-width: 600px;
+}
+.projects img {
+    width: 300px;
+}
+
+.storyDesc, .wineDesc {
+    width: 50%;
+    float: left;
+    vertical-align: middle;
+}
+
+.calDesc {
+    width: 50%;
+    float: right;
+}
+
+.storyDesc {
+    position: relative;
+    top: 30px;
+}
+
+.wineDesc  {
+    position: relative;
+    top: 60px;
+}
+
+.calDesc {
+    position: relative;
+    top: 85px;
+}
+
+@media only screen and (max-width: 600px){
+    header img {
+        display: none;
+    }
+
+    header {
+        text-align: center;
+        margin-top: 60px;
+    }
+
+    .projects h3 {
+        margin-bottom: 50px;
+        padding-left: 10px;
+    }
+
+    .storyTime, .calTrak, .fineWIne {
+        margin-bottom: 50px;
+    }
+
+    .storyDesc, .calDesc, .wineDesc {
+        width: 100%;
+        margin-bottom: 60px;
+        padding: 5px;
+    }
+
+    .storyImg, .calImg, .wineImg {
+        display: block;
+        margin: 0 auto;
+    }
+
+    .projects {
+        padding: 0px;
+    }
+
+    .storyTitle, .calTitle, .wineTitle, .storyDesc, .calDesc, .wineDesc, .storyTech, .calTech, .wineTech {
+        padding-left: 20px;
+    }
+
+    nav {
+        text-align: center;
+    }
+
+    nav img {
+        width: 60px;
+    }
+}

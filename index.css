@@ -3,17 +3,8 @@
 	font-family: 'Roboto', arial, sans-serif;
 }
 
-html * {
-    margin: 0;
-}
-
-main {
-    margin: 0;
-}
 
 body {
-    margin: 0 auto;
-    max-width: 1000px;
     background: linear-gradient(to bottom right, darkgrey, grey);
 }
 
@@ -53,7 +44,7 @@ header {
 }
 
 .cube {
-    width: 200px;
+    width: 20%;
 }
 
 h1 {
@@ -63,10 +54,8 @@ h1 {
 }
 
 .myself{
-    position: relative;
-    top: -50px;
-    margin-bottom: -71px;
-    height: 452px;
+    /* margin-bottom: -71px; */
+    height: auto;
 }
 
 .headline{
@@ -82,7 +71,7 @@ h1 {
 } */
 
 .description {
-    width: 800px;
+    width: 85%;
     margin: 0 auto;
     position: relative;
     left: -35px;
@@ -90,7 +79,7 @@ h1 {
 }
 
 .storyTime, .calTrak, .fineWine {
-    width: 600px;
+    width: 70%;
     padding-bottom: 30px;
 }
 
@@ -103,25 +92,26 @@ h1 {
 }
 
 .storyImg {
+    width: 50%;
     position: relative;
     top: -45px;
     left: 20px;
 }
 
 .calImg{
-    width: 300px;
+    width: 50%;
 }
 
 .wineImg{
-    width: 300px;
+    width: 50%;
 }
 .storyDesc {
-    width: 300px;
+    width: 50%;
     float: left;
 }
 
 .calDesc {
-    width: 300px;
+    width: 50%;
     float: right;
     position: relative;
     top: 65px;
@@ -129,7 +119,7 @@ h1 {
 }
 
 .wineDesc {
-    width: 300px;
+    width: 50%;
     float: left;
     position: relative;
     top: 100px;
@@ -178,4 +168,8 @@ nav img {
     nav {
         background-color: blue;
     }
+
+    /* html * {
+        margin: 0;
+    } */
 }
